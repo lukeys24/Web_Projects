@@ -1,0 +1,36 @@
+/*
+Luke Seo
+CSE 154 AO
+HW 4
+This file is the css associated with the game fifteen puzzle.
+*/
+
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+}
+
+.hoverTile:hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin: auto;
+	position: relative;
+	width : 400px;
+}
+
+.puzzleTiles {
+	background-image: url("background.jpg");
+	border: 5px solid black;
+	cursor: default;
+	font-size: 40pt;
+	height: 90px;
+	position: absolute;
+	width: 90px;
+}

@@ -1,0 +1,147 @@
+/*
+	Luke Seo
+	CSE 154 AO
+	Homework 2
+	This program is the style for a movie review site TMNT
+*/
+
+body {
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+}
+
+body, #bottompage {
+	margin: 0pt;
+}
+
+body, #nobullets {
+	padding: 0pt;
+}
+
+body, .reviewbox, #rightside {
+	font-size: 10pt;
+}
+
+body, #rightside {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#bothcolumns, #firstcolumn, .reviewbox img, .reviewerinformation img, #secondcolumn {
+	float: left;
+}
+
+#bottompage {
+	clear: right;
+	padding: 5pt;
+}
+
+#bottompage, #rightside {
+	background-color: #A2B964;
+}
+
+#criticreviews {
+	width: 550px;
+}
+
+dd {
+	margin-bottom: 10pt;
+}
+
+dl {
+	padding-left: 10pt;
+	padding-right: 10pt;
+}
+
+dt, h1, #moviepercentage {
+	font-weight: bold;
+}
+
+#firstcolumn, #secondcolumn {
+	margin-left: 2%;
+	width: 47%;
+}
+
+#float, #rightside {
+	float: right;
+}
+
+h1 {
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+}
+
+h1, #bottompage, #topbanner {
+	text-align: center;
+}
+
+h1, .reviewbox {
+	font-family: Georgia, "Times New Roman", sans-serif;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#largerotten {
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	color: red;
+	font-size: 48pt;
+	font-weight: bold;
+}
+
+#largerotten img {
+	height: 83px;
+	vertical-align: bottom;
+}
+
+#largerotten, #topbanner {
+	background-repeat: repeat-x;
+}
+
+#nobullets {
+	list-style-type: none;
+}
+
+#overallcontent {
+	background-color: #EEEEEE;
+	box-shadow: 5px 5px 5px gray;
+	margin: auto;
+	width: 800px;
+}
+
+#overallcontent, .reviewbox {
+	border-radius: 20px;
+}
+
+#overallcontent, .reviewbox, .reviewerinformation {
+	overflow: hidden;
+}
+
+.reviewbox {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	padding: 8px;
+}
+
+.reviewbox img, .reviewerinformation img {
+	margin-right: 5px;
+}
+
+.reviewerinformation {
+	margin-bottom: 20pt;
+}
+
+#rightside {
+	width: 250px;
+}
+
+#secondcolumn {
+	margin-right: 2%;
+}
+
+#topbanner {
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+}
+
+#topbanner, #topbanner img {
+	height: 50px;
+}

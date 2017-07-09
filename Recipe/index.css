@@ -1,0 +1,23 @@
+/*
+Luke Seo
+CSE 154 AO
+Homework 1
+This css is associated with the index.html file
+*/
+
+body {
+	background-image: url("kanyemood.jpg");
+	color: cyan;
+	font-family: kokonor;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40pt;
+	font-weight: bolder;
+}
+
+p {
+	font-size: 20pt;
+	font-weight: bold;
+}

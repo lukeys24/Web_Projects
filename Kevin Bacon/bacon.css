@@ -1,0 +1,55 @@
+/*
+	Luke Seo
+	CSE 154 AO
+	HW 8 Kevin Bacon
+	This file is the CSS associated with the Kevin Bacon webpage
+*/
+
+#banner, #main {
+	padding: 1em;
+}
+
+#banner, #w3c {
+	background-image: url("https://webster.cs.washington.edu/images/kevinbacon/banner-background.png");
+	color: white;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+}
+
+body, tr:nth-child(even) {
+	background-color: #DAD9D4;
+}
+
+form {
+	width: 24em;
+}
+
+#frame {
+	background-color: white;
+	width: 90%;
+}
+
+form, #frame, h1, table {
+	margin: auto;
+}
+
+form, h1, #main, table {
+	text-align: center;
+}
+
+h1, table, form {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+legend {
+	text-align: left;
+}
+
+table {
+	border: 2px solid #DAD9D4;
+	border-collapse: collapse;
+}
